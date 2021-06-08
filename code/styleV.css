@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Karrik-Reg';
+    src:    url('fonts/Karrik-Regular.woff') format('woff'),
+            url('fonts/Karrik-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+body {
+   margin: 10;
+   color: black;
+   background-color: white;
+}
+p{
+    text-align: left;
+}
+
+#style
+{
+ text-align: left;
+ margin: 0 auto;
+ border-top: : 5px solid black;
+  font-family: "Karrik-Reg";
+  font-size: 20px;
+} 
+
+.outer-div
+{
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+.inner-div
+{
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 3px;
+}
